@@ -1,0 +1,19 @@
+  h1 {font-family: Organetto Bold SemiExt; font-size: 5.27vw; color: white; vertical-align: top; text-align: left;}
+  h2 {font-family: Organetto Bold SemiExt; font-size: 2.5vw; color: white; padding-top: 2vw; vertical-align: top; text-align: center;}
+  h3 {
+    font-family: Organetto Bold SemiExt;
+    font-size: 5vw;
+    color: black;
+    vertical-align: top;
+    text-align: сcenter;
+  }
+  p {
+    font-family: Source Sans Pro Regular;
+    font-size: 2.6vw;
+    color: black;
+    padding-left: 2.89007vw;
+    padding-top: 3vw;
+    line-height: 3vw;
+    vertical-align: top;
+    text-align: left;
+  }

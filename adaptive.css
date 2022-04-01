@@ -1,0 +1,125 @@
+@media screen and (max-width: 1921px) {
+  .container {
+    display: grid;
+    grid-template-columns: 0.5fr 0.6fr 0.4fr 0.6fr 1.7fr 0.7fr 2.3fr 1.1fr 1fr;
+    grid-template-rows: 0.9fr 0.8fr 0.8fr 1.4fr 1.2fr 1.1fr 1.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "rounds rounds rounds rounds head glasses eye red white_2"
+      "cubes triangle triangle stripes head glasses eye black_1 area1"
+      "cubes triangle triangle stripes start start help black_1 area1"
+      "grey grey rounds_half rounds_half test test cat area circle"
+      "grey grey stripes_1 stripes_1 test test cat pew pew"
+      "glass glass stripes_1 stripes_1 test test cat pew pew"
+      "animation animation animation animation black white_1 ears white white";
+    width: 1920px;
+    height: 1080px;
+  }
+  .circle { grid-area: circle; }
+  .area { grid-area: area; }
+  .white { grid-area: white; }
+  .ears { grid-area: ears; }
+  .animation { grid-area: animation; }
+  .white_1 { grid-area: white_1; }
+  .black { grid-area: black; }
+  .black_1 { grid-area: black_1; }
+  .area1 { grid-area: area1; }
+  .red { grid-area: red; }
+  .white_2 { grid-area: white_2; }
+}
+@media screen and (max-width: 1441px) {
+    .container {
+    display: grid;
+    grid-template-columns: 0.6fr 0.5fr 0.6fr 0.6fr 1.7fr 0.7fr 2.3fr;
+    grid-template-rows: 0.9fr 1.1fr 0.7fr 0.8fr 1.5fr 1.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "rounds rounds rounds rounds head glasses eye"
+      "cubes triangle triangle stripes head glasses eye"
+      "cubes triangle triangle stripes start start help"
+      "grey grey rounds_half rounds_half test test cat"
+      "grey grey stripes_1 stripes_1 test test cat"
+      "glass glass pew pew test test cat";
+    width: 1440px;
+    height: 900px;
+  }
+}
+@media screen and (max-width: 1367px) {
+  .container {
+    background-color: #FF003D;
+    display: grid;
+    grid-template-columns: 0.7fr 0.6fr 0.7fr 0.6fr 1.6fr 0.6fr 2.2fr;
+    grid-template-rows: 0.9fr 1fr 0.8fr 0.8fr 1.5fr 1.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "rounds rounds rounds rounds head glasses eye"
+      "cubes triangle triangle stripes head glasses eye"
+      "cubes triangle triangle stripes start start help"
+      "grey grey rounds_half rounds_half test test cat"
+      "grey grey stripes_1 stripes_1 test test cat"
+      "glass glass pew pew test test cat";
+    width: 1366px;
+    height: 768px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .container {
+    display: grid;
+    grid-template-columns: 0.6fr 0.5fr 0.6fr 0.6fr 1.7fr 0.7fr 2.3fr;
+    grid-template-rows: 0.9fr 1.1fr 0.7fr 0.8fr 1.5fr 1.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "rounds rounds rounds rounds head glasses eye"
+      "cubes triangle triangle stripes head glasses eye"
+      "cubes triangle triangle stripes start start help"
+      "grey grey rounds_half rounds_half test test cat"
+      "grey grey stripes_1 stripes_1 test test cat"
+      "glass glass pew pew test test cat";
+    width: 1024px;
+    height: 768px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 0.5fr 1.1fr 2.1fr 1fr 0.4fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "head head glasses eye eye eye"
+      "start start start help help help"
+      "test test test test test test"
+      "cat cat cat cat cat cat"
+      "grey grey rounds_half rounds_half stripes_1 stripes_1"
+      "rounds rounds rounds rounds rounds rounds";
+    width: 414px;
+    height: 896px;
+  }
+  .stripes, .triangle, .cubes, .glass, .pew, .circle, .area, .white, .ears, .animation, .white_1, .black, .black_1, .area1, .red, .white_2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+    .container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.9fr 0.5fr 1.1fr 2.1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "head head glasses eye eye eye"
+      "start start start help help help"
+      "test test test test test test"
+      "cat cat cat cat cat cat"
+      "pew pew rounds_half rounds_half stripes stripes";
+    width: 360px;
+    height: 640px;
+  }
+  .pew, .stripes {
+    display: flex;
+  }
+  .stripes_1, .triangle, .cubes, .glass, .grey, .circle, .area, .white, .ears, .animation, .white_1, .black, .black_1, .area1, .red, .white_2, .rounds {
+    display: none;
+  }
+}

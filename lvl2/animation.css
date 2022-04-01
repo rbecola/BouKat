@@ -1,0 +1,32 @@
+.pew1_img {
+  animation: pew 1s infinite;
+  animation-timing-function: linear;
+}
+  @keyframes pew {
+  0% {transform: rotate(0deg);}
+  20% { transform: rotate(5deg);}
+  50% { transform: rotate(-5deg);}
+  100% { transform: rotate(0deg);}
+}
+
+/* .glasses_img{
+  transition: transform 0.2s;
+  transition-timing-function: linear;
+}
+
+.glasses_img:hover {
+  transform: scale(1.1) ;
+
+} */
+.stripes1 {
+  width: 100%; height: 100%;
+  background-color: #C4C4C4;
+  background-image: url("images/bg_stripes.svg");
+  overflow: hidden;
+  background-size: cover;
+  animation: stripes_animation 8s linear infinite;
+}
+@keyframes stripes_animation {
+  from { background-position: 100% 0; }
+  to { background-position: 0 0; }
+}

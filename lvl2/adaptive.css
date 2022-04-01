@@ -1,0 +1,122 @@
+
+/* } чтобы грид система растягивалась от адаптива к адаптиву */
+
+
+  @media screen and (max-width: 415px) {
+   .container {  display: grid;
+     grid-template-columns: 1.4fr 1.8fr 1.9fr 0.8fr 0.7fr 1.79fr 1.2fr 1.21fr 0.8fr 1.6fr;
+     grid-template-rows: 53px 1fr 0.6fr 0.26fr 0.63fr 0.54fr 0.46fr 0.75fr 0.93fr 0.25fr 0.73fr 0.85fr;
+     gap: 0px 0px;
+     grid-auto-flow: row;
+     grid-template-areas:
+       "help help help help help lvl lvl lvl lvl lvl"
+       "shield shield ears ears new pew1 pew1 stripes stripes stripes"
+       "head black4 eye1 eye1 cat1 cat1 black2 white1 white1 red"
+       "rounds rounds eye1 eye1 cat1 cat1 black2 white1 white1 red"
+       "strange strange glass glass cat1 cat1 black2 catsheads catsheads catsheads"
+       "catpop catpop black grey1 cat1 cat1 white2 light-grey1 light-grey1 light-grey1"
+       "catpop catpop light stripes1 lapka1 lapka1 white2 light-grey1 light-grey1 light-grey1"
+       "catpop catpop lapka stripes1 white white white white black1 black1"
+       "stripe stripe red1 red1 red1 eye eye eye light-grey light-grey"
+       "newarea newarea newarea ears2 ears2 cat cat cat pew pew"
+       "newarea newarea newarea ears2 ears2 cat cat cat pew pew"
+       "left-time left-time left-time left-time left-time left-time timer timer timer timer";
+     width: 414px;
+     height: 896px;
+   }
+   .white3, .black5, .search, .gray, .black3, .light-gray1, .glasses, .grey {
+     display: none;
+   }
+   .grey_stripe {
+    height: 12.6%;
+    padding-left: 13%;
+}
+}
+@media screen and (min-width: 1023px) {
+  .container {
+  width: 100%;
+  }
+}
+@media screen and (min-width: 1365px) {
+  .container {
+  width: 100%;
+  }
+}
+ @media screen and (min-width: 1366px) {
+    .container {
+    display: grid;
+    grid-template-columns: 1.6fr 0.9fr 1.4fr 0.6fr 0.6fr 0.7fr 1.2fr 0.8fr 1.2fr;
+    grid-template-rows: 63px 1.1fr 0.6fr 1.6fr 1fr 0.7fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "help help help help lvl lvl lvl lvl lvl"
+      "stripes red catsheads grey1 light-grey1 black1 light-grey pew pew"
+      "glasses white1 catsheads grey1 black white white pew pew"
+      "ears cat1 cat1 cat1 cat1 light-gray1 eye eye cat"
+      "shield black4 light catpop catpop catpop stripe red1 timer"
+      "shield head lapka catpop catpop catpop stripe_red left-time left-time";
+    width: 1366px;
+    height: 768px;
+  }
+  .tail_red {
+    width: 12%;
+    margin-left: 81%;
+    margin-top: 23%;
+    }
+  .black_tail {
+    position: absolute;
+    width: 11%;
+    padding-left: 10%;
+    z-index: 1;
+    }
+
+    .white3, .black5, .search, .glass, .eye1, .eye2, .grey_stripe, .pew1_img, .gray, .black3, .lapka1, .white2, .stripes1, .ears2, .black2, .pew1, .grey {
+      display: none;
+    }
+    .white {
+    background-image: url(images/4_triangle.svg);
+    background-size: cover;
+    }
+  .catsheads {
+    background-image: url(images/head_width.svg);
+  }
+  .eye {
+    background-image: url(images/big_eye.svg);
+  }
+  .cat {
+    align-items: flex-end;
+  }
+  .popa1 {
+    width: 100%;
+  }
+  .r_g_triangle {
+    width: 23.4%;
+  }
+  .head_small {
+    max-width: 89.2%;
+  }
+  .lapka_img {
+    max-width: 35%;
+  }
+  .tail1 {
+    width: 15%;
+  }
+  .pew {
+    padding: 5% 10%;
+  }
+  .big_white {
+    z-index: 2;
+  }
+  .stripe {
+    background-size: contain;
+  }
+  .lala {
+    width: 54.4%;
+    margin-top: 4.6%;
+ }
+ .shadow {
+    width: 60.6%;
+    margin-top: 4.6%;
+  }

@@ -1,0 +1,571 @@
+   body {
+      /* background-image: url("Frame 8.png");
+      background-size: 100% auto;
+      background-repeat: no-repeat; */
+      /* background-color: #C4C4C4; */
+    }
+    .container {  display: grid;
+  grid-template-columns: 1.8fr 1.1fr 1.4fr 0.5fr 0.7fr 0.8fr 1.3fr 0.5fr 1.2fr;
+  grid-template-rows: 63px 0.9fr 0.5fr 0.4fr 0.4fr 0.4fr 0.8fr 0.4fr 0.6fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "help help help help lvl lvl lvl lvl lvl"
+    "stripes red catsheads grey1 light-grey1 black1 light-grey light-grey pew"
+    "glasses white1 catsheads grey1 black white white white grey"
+    "pew1 cat1 cat1 cat1 white2 eye eye cat cat"
+    "pew1 cat1 cat1 cat1 lapka1 eye eye cat cat"
+    "pew1 cat1 cat1 cat1 lapka1 stripes1 stripes1 cat cat"
+    "ears eye1 glass white3 black3 light-gray1 red1 ears2 ears2"
+    "ears search search black5 gray light-gray1 red1 timer timer"
+    "shield black4 light catpop catpop catpop stripe timer timer"
+    "shield head lapka catpop catpop catpop left-time left-time left-time";
+  width: 1024px;
+  height: 768px;
+}
+/* .container_js {
+  grid-template-areas:
+"help help help help lvl lvl lvl lvl lvl"
+"lala lala lala lala lala black1 light-grey light-grey pew"
+"glasses white1 catsheads grey1 black white white white grey"
+"pew1 cat1 cat1 cat1 white2 eye eye cat cat"
+"pew1 cat1 cat1 cat1 lapka1 eye eye cat cat"
+"pew1 cat1 cat1 cat1 lapka1 stripes1 stripes1 cat cat"
+"ears eye1 glass white3 black3 light-gray1 red1 ears2 ears2"
+"ears search search black5 gray light-gray1 red1 timer timer"
+"shield black4 light catpop catpop catpop stripe timer timer"
+"shield head lapka catpop catpop catpop left-time left-time left-time";
+  height: 768px;
+}
+.lala {
+  grid-area: lala;
+} */
+.group {
+  position: absolute;
+  z-index: 2;
+
+}
+.grey_img {
+  position: absolute;
+  z-index: 1;
+  width: 3.25%;
+  margin-left: 3.2%;
+}
+.done {
+  background-color: #FF002E;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+  visibility: hidden;
+}
+.time_out {
+  background-color: #231F20;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+  visibility: hidden;
+}
+ button {
+  border-color: #DEDEDE;
+  height: 63px;
+  width: 100%;
+  position: relative;
+}
+.lala {
+  background-color: #FFFFFF;
+  position: absolute;
+  width: 60%;
+  height: 16.4%;
+  margin-top: 6.13%;
+  visibility: hidden;
+}
+.shadow {
+  background-image: linear-gradient(to bottom, #e7e7e7 1%, transparent 100%);
+  position: absolute;
+  width: 67.6%;
+  height: 2%;
+  margin-top: 6.13%;
+  visibility: hidden;
+}
+.help {
+  grid-area: help;
+  background-color: #FFFFFF;
+}
+.black_text {
+  color: black;
+}
+.lvl {
+  grid-area: lvl;
+  background-color: #FF002E;
+}
+
+.stripes {
+  grid-area: stripes;
+  background-color: #C4C4C4;
+  background-image: url(images/w_stripes.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.glasses {
+  grid-area: glasses;
+  background-color: #C4C4C4;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 5% 5%;
+}
+.glasses_img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.shield {
+  grid-area: shield;
+  background-color: #DEDEDE;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  align-content: flex-end;
+}
+.shield_img {
+  max-width: 75%;
+  height: auto;
+  max-height: 100%;
+  z-index: 1;
+}
+.r_g_triangle {
+  position: absolute;
+  width: 24.6%;
+  padding-top: 0.38%;
+  z-index: 2;
+}
+.pew {
+  grid-area: pew;
+  background-color: #DEDEDE;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 5% 5%;
+}
+.pew_img {
+  max-width: 80%;
+  height: auto;
+  max-height: 100%;
+  z-index: 2;
+}
+
+.red {
+  grid-area: red;
+  background-color: #FF002E;
+  background-image: url(images/black_grey.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.left-time {
+  grid-area: left-time;
+  background-color: #FFFFFF;
+}
+
+.cat {
+  grid-area: cat;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.tail_red {
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 80%;
+  margin-top: 23%;
+}
+.popa1 {
+  z-index: 2;
+  position: relative;
+}
+
+.timer {
+  grid-area: timer;
+  background-color: #DEDEDE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+}
+.time {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+
+}
+.light-grey {
+  grid-area: light-grey;
+  background-color: #9D9D9D;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+.half_circles {
+  height: auto;
+}
+
+.white {
+  grid-area: white;
+  background-color: #FFFFFF;
+  background-image: url(images/triangle.svg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.black {
+  grid-area: black;
+  background-color: #000000;
+}
+
+.grey {
+  grid-area: grey;
+  background-color: #3E3E3E;
+}
+.catsheads {
+  grid-area: catsheads;
+  background-color: #000000;
+  /* display: flex; */
+  background-image: url(images/head.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; */
+}
+/* .head_img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+} */
+.white1 {
+  grid-area: white1;
+  background-color: #FFFFFF;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.img_1b {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.grey1 {
+  grid-area: grey1;
+  background-color: #9D9D9D;
+  background-image: linear-gradient(to right, black 50%, transparent 50%);
+}
+
+.light-grey1 {
+  grid-area: light-grey1;
+  background-color: #C4C4C4;
+}
+
+.black1 {
+  grid-area: black1;
+  background-color: #000000;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.white_circle {
+  /* width: 50%; */
+}
+.ears {
+  grid-area: ears;
+  background-color: #000000;
+  display: flex;
+  align-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-start;
+}
+.red_ears {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  z-index: 2;
+  position: relative;
+  margin-bottom: -0.5%;
+}
+.tail1 {
+  width: 18%;
+  z-index: 1;
+  position: absolute;
+  margin-bottom: -1%;
+}
+
+.pew1 {
+  grid-area: pew1;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  justify-content: center;
+  padding: 5% 5%;
+}
+.pew1_img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  z-index: 2;
+}
+.grey_stripe {
+  height: 21%;
+  position: absolute;
+  z-index: 3;
+  padding-left: 10%;
+}
+.black2 {
+  grid-area: black2;
+  background-color: #000000;
+}
+
+.ears2 {
+  grid-area: ears2;
+  background-color: #FF002E;
+}
+
+.stripe {
+  grid-area: stripe;
+  background-color: #000000;
+  background-image: url(images/1_stripe.svg);
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.red1 {
+  grid-area: red1;
+  background-color: #3E3E3E;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.big_white {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.stripes1 {
+  grid-area: stripes1;
+}
+
+.light-gray1 {
+  grid-area: light-gray1;
+  background-color: #DEDEDE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red_squares {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.catpop {
+  grid-area: catpop;
+  background-color: white;
+  background-image: linear-gradient(to left, #3E3E3E 40%, transparent 40%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.black_tail {
+  position: absolute;
+  width: 14%;
+  padding-left: 14%;
+  z-index: 1;
+}
+.cat_popa {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  z-index: 2;
+}
+.lapka {
+  grid-area: lapka;
+  background-color: #C4C4C4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end
+}
+.lapka_img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.head {
+  grid-area: head;
+  border-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.head_small {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.eye {
+  grid-area: eye;
+  background-color: #000000;
+  background-image: url(images/eye.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.white2 {
+  grid-area: white2;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+}
+.vector {
+  max-width: 60%;
+  height: auto;
+  max-height: 100%;
+}
+
+.lapka1 { grid-area: lapka1;
+  background-color: #3E3E3E;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.red_lapka {
+  max-width: 70%;
+  height: auto;
+  max-height: 100%;
+}
+.cat1 { grid-area: cat1;
+  background-color: #DEDEDE;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 5.5%;
+  background-image: linear-gradient(to bottom, black 40%, transparent 40%);
+}
+.cat_img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.black3 { grid-area: black3;
+  background-color: #000000;
+}
+
+.gray { grid-area: gray;
+  background-color: #3E3E3E;
+}
+
+.light { grid-area: light;
+  background-color: #C4C4C4;
+  background-image: linear-gradient(to top, black 35%, transparent 35%);
+  display: flex;
+}
+.stripes_triangle {
+  max-width: 100%;
+  height: auto;
+  max-height: 65.5%;
+}
+.black4 { grid-area: black4;
+  background-color: #000000;
+}
+
+.search { grid-area: search;
+  background-color: #9D9D9D;
+}
+.keep {
+  padding-left: 1.89007vw;
+  padding-top: 1vw;
+  visibility: hidden;
+
+}
+.black5 { grid-area: black5;
+  background-color: #000000;
+}
+
+.white3 { grid-area: white3;
+
+}
+
+.glass { grid-area: glass;
+  background-color: #FF002E;
+  background-image: linear-gradient(to top, white 50%, transparent 50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 15%;
+}
+.glass_img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+.eye1 { grid-area: eye1;
+  background-color: #3E3E3E;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.eye2 {
+  max-width: 80%;
+  height: auto;
+  max-height: 100%;
+}
+  .stripe_red { grid-area: stripe_red; }
+
+
+/* классы для скриптов */
+.index_up {
+  z-index: 5;
+}
+.index_down {
+  z-index: 0;
+}
+.help_script {
+  background-color: #DEDEDE;
+  background-image: none;
+}
+.catheads_script {
+  background-color: #DEDEDE;
+  background-image: none;
+  background-image: linear-gradient(to top, #3E3E3E 44%, transparent 44%);
+}
+.hide {
+  display: none;
+  background-image: none;
+}
+.show {
+  visibility: visible;
+}
+/* .flex {
+  display: block;
+} */

@@ -1,0 +1,93 @@
+   body {
+      /* background-image: url("Frame 8.png");
+      background-size: 100% auto;
+      background-repeat: no-repeat; */
+      /* background-color: #C4C4C4; */
+    }
+    .container {
+      background-color: #FF003D;
+      display: grid;
+      grid-template-columns: 0.7fr 0.6fr 0.7fr 0.6fr 1.6fr 0.6fr 2.2fr;
+      grid-template-rows: 0.9fr 1fr 0.8fr 0.8fr 1.5fr 1.3fr;
+      gap: -1px -1px;
+      grid-template-areas:
+        "rounds rounds rounds rounds head glasses eye"
+        "cubes triangle triangle stripes head glasses eye"
+        "cubes triangle triangle stripes start start help"
+        "grey grey rounds_half rounds_half test test cat"
+        "grey grey stripes_1 stripes_1 test test cat"
+        "glass glass pew pew test test cat";
+      width: 100%;
+      height: 100%;
+    }
+
+    .cat { grid-area: cat;
+    background-color: #FF002E;
+    }
+
+    .start { grid-area: start;
+    background-color: #231F20;
+    }
+
+    .help { grid-area: help;
+    background-color: #C4C4C4;
+    }
+
+    .head { grid-area: head;
+    background-color: #FF002E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .glasses { grid-area: glasses;
+    background-color: #FFFFFF;
+    }
+
+    .eye { grid-area: eye;
+    background-color: #231F20;
+    }
+
+    .rounds { grid-area: rounds;
+    background-color: #231F20;
+    background-image: url(images/rounds.svg);
+    background-repeat: repeat-x;
+    background-size: cover;
+    }
+
+    .test { grid-area: test;
+    background-color: #FF002E;
+    }
+
+    .stripes { grid-area: stripes;
+    background-color: #231F20;
+    }
+
+    .triangle { grid-area: triangle;
+    background-color: #FF002E;
+    }
+
+    .cubes { grid-area: cubes;
+    background-color: #FFFFFF;
+    }
+
+    .grey { grid-area: grey;
+    background-color: #928E8F;
+    }
+
+    .stripes_1 { grid-area: stripes_1;
+    background-color: #231F20;
+    }
+
+    .rounds_half { grid-area: rounds_half;
+    background-color: #231F20;
+    }
+    .glass { grid-area: glass;
+    background-color: #231F20;
+    }
+    .pew { grid-area: pew;
+    background-color: #C4C4C4;
+    }
+    .head_img {
+
+    }

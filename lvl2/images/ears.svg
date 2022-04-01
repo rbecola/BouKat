@@ -1,0 +1,7 @@
+<svg width="234" height="129" viewBox="0 0 234 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 94H119L0 0V94Z" fill="white"/>
+<rect y="94" width="234" height="35" fill="white"/>
+<path d="M119 94H234V0L119 94Z" fill="white"/>
+<path d="M0 129H119L0 35V129Z" fill="black"/>
+<path d="M119 129H234V35L119 129Z" fill="black"/>
+</svg>
