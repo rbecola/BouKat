@@ -1,0 +1,26 @@
+<svg width="416" height="201" viewBox="0 0 416 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="16" y="100" width="400" height="101">
+<rect x="416" y="200.036" width="399.362" height="99.173" transform="rotate(180 416 200.036)" fill="black"/>
+</mask>
+<g mask="url(#mask0_404_12)">
+<path d="M24.9587 40.0786C24.9587 77.4109 44.2433 113.214 78.57 139.612C112.897 166.01 159.454 180.84 207.999 180.84C256.545 180.84 303.102 166.01 337.429 139.612C371.755 113.214 391.04 77.4109 391.04 40.0786L207.999 40.0786H24.9587Z" fill="white"/>
+</g>
+<mask id="mask1_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="1" width="400" height="100">
+<rect y="1.69006" width="399.362" height="99.173" fill="black"/>
+</mask>
+<g mask="url(#mask1_404_12)">
+<path d="M391.041 161.646C391.041 124.314 371.757 88.5105 337.43 62.1126C303.103 35.7146 256.546 20.8844 208.001 20.8844C159.455 20.8844 112.898 35.7147 78.5713 62.1126C44.2445 88.5105 24.96 124.314 24.9599 161.646L208.001 161.646L391.041 161.646Z" fill="white"/>
+</g>
+<mask id="mask2_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="166" y="0" width="34" height="193">
+<rect x="199.242" y="0.960938" width="191.11" height="32.3343" transform="rotate(90 199.242 0.960938)" fill="black"/>
+</mask>
+<g mask="url(#mask2_404_12)">
+<path d="M147.089 188.087C159.261 188.087 170.934 178.858 179.541 162.432C188.148 146.005 192.983 123.726 192.983 100.495C192.983 77.264 188.148 54.9847 179.541 38.558C170.934 22.1314 159.261 12.903 147.089 12.903L147.089 100.495L147.089 188.087Z" fill="black"/>
+</g>
+<mask id="mask3_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="134" y="8" width="33" height="193">
+<rect x="134.572" y="200.03" width="191.11" height="32.3343" transform="rotate(-90 134.572 200.03)" fill="black"/>
+</mask>
+<g mask="url(#mask3_404_12)">
+<path d="M186.724 12.9038C174.552 12.9038 162.879 22.1322 154.272 38.5588C145.666 54.9855 140.83 77.2648 140.83 100.496C140.83 123.726 145.666 146.006 154.272 162.432C162.879 178.859 174.552 188.088 186.724 188.088L186.724 100.496L186.724 12.9038Z" fill="black"/>
+</g>
+</svg>
