@@ -20,11 +20,33 @@
       width: 100%;
       height: 100%;
     }
+    .white_text {
+      font-size: 6vw;
+      color: white;
+      padding-left: 35%;
+      padding-top: 75%;
+    }
+    .help_hidden {
+    background-color: #C4C4C4;
+    margin-top: 24%;
+    margin-left: 33.2%;
+    height: 57.3%;
+    width: 66.8%;
+    position: absolute;
+    z-index: 3;
+    visibility: hidden;
+    }
+    .show {
+    visibility: visible;
+    }
     .black_text {
       color: black;
     }
     .cat { grid-area: cat;
     background-color: #FF002E;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
     }
 
     .start { grid-area: start;
@@ -58,6 +80,7 @@
     background-image: url(images/rounds.svg);
     background-repeat: repeat-x;
     background-size: contain;
+    background-position: center;
     }
 
     .test { grid-area: test;
@@ -111,6 +134,13 @@
     }
     .pew { grid-area: pew;
     background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    }
+    .pew_img1 {
+
     }
     .head_img {
     width: 60%;
