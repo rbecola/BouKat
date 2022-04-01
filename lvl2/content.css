@@ -101,6 +101,12 @@
   width: 100%;
   position: relative;
 }
+button1 {
+ border-color: #DEDEDE;
+ height: 63px;
+ width: 100%;
+ position: relative;
+}
 .lala {
   background-color: #FFFFFF;
   position: absolute;
