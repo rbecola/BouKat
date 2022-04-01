@@ -1,15 +1,26 @@
-<svg width="332" height="162" viewBox="0 0 332 162" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_293_390" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="13" y="80" width="319" height="82">
-<rect x="332" y="161.321" width="318.721" height="80.5341" transform="rotate(180 332 161.321)" fill="black"/>
+<svg width="496" height="237" viewBox="0 0 496 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="19" y="118" width="477" height="119">
+<rect x="495.244" y="236.998" width="475.436" height="118.065" transform="rotate(180 495.244 236.998)" fill="black"/>
 </mask>
-<g mask="url(#mask0_293_390)">
-<path d="M19.919 31.4271C19.919 61.7431 35.3096 90.8174 62.705 112.254C90.1003 133.691 127.256 145.734 165.999 145.734C204.742 145.734 241.898 133.691 269.294 112.254C296.689 90.8174 312.08 61.7431 312.08 31.4271L165.999 31.4271H19.919Z" fill="white"/>
+<g mask="url(#mask0_404_12)">
+<path d="M29.7129 46.5691C29.7129 91.0129 52.671 133.636 93.5367 165.063C134.402 196.489 189.828 214.145 247.621 214.145C305.414 214.145 360.84 196.489 401.705 165.063C442.571 133.636 465.529 91.0129 465.529 46.5691L247.621 46.5691H29.7129Z" fill="white"/>
 </g>
-<mask id="mask1_293_390" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="319" height="82">
-<rect y="0.252319" width="318.721" height="80.8866" fill="black"/>
+<mask id="mask1_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="476" height="119">
+<rect y="0.86792" width="475.436" height="118.065" fill="black"/>
 </mask>
-<g mask="url(#mask1_293_390)">
-<path d="M312.081 130.715C312.081 100.266 296.69 71.0645 269.295 49.5341C241.899 28.0036 204.743 15.9079 166 15.9079C127.258 15.9079 90.1014 28.0036 62.7061 49.5341C35.3107 71.0645 19.9202 100.266 19.9202 130.715L166 130.715L312.081 130.715Z" fill="white"/>
+<g mask="url(#mask1_404_12)">
+<path d="M465.531 191.294C465.531 146.85 442.573 104.227 401.707 72.8004C360.841 41.3739 305.415 23.7187 247.623 23.7187C189.83 23.7187 134.404 41.3739 93.5382 72.8004C52.6725 104.227 29.7143 146.85 29.7143 191.294L247.623 191.294L465.531 191.294Z" fill="white"/>
 </g>
-<rect x="48.1909" y="69.5836" width="241.009" height="21.4597" fill="white"/>
+<mask id="mask2_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="198" y="0" width="40" height="228">
+<rect x="237.195" width="227.514" height="38.4937" transform="rotate(90 237.195 0)" fill="black"/>
+</mask>
+<g mask="url(#mask2_404_12)">
+<path d="M175.108 222.772C189.598 222.772 203.495 211.785 213.742 192.229C223.988 172.674 229.744 146.15 229.744 118.494C229.744 90.8382 223.988 64.3148 213.742 44.759C203.495 25.2033 189.598 14.2169 175.108 14.2169L175.108 118.494L175.108 222.772Z" fill="black"/>
+</g>
+<mask id="mask3_404_12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="160" y="9" width="39" height="228">
+<rect x="160.207" y="236.989" width="227.514" height="38.4937" transform="rotate(-90 160.207 236.989)" fill="black"/>
+</mask>
+<g mask="url(#mask3_404_12)">
+<path d="M222.293 14.2177C207.803 14.2177 193.906 25.2041 183.66 44.7598C173.413 64.3156 167.657 90.839 167.657 118.495C167.657 146.151 173.413 172.674 183.66 192.23C193.906 211.786 207.803 222.772 222.293 222.772L222.293 118.495L222.293 14.2177Z" fill="black"/>
+</g>
 </svg>
