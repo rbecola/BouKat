@@ -41,6 +41,22 @@
   grid-area: lala;
 } */
 
+.cat_done {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 10.5%;
+}
+
+.time_out_text {
+  width: 50%;
+  color: white;
+  text-align: left;
+  padding-top: 42%;
+  position: absolute;
+  line-height: 5.5vw;
+  margin-left: 4%;
+}
+
 .stripe_round {
   position: relative;
   margin-left: 15%;
@@ -60,6 +76,7 @@
 }
 .done {
   background-color: #FF002E;
+  background-image: url(images/cat.png);
   height: 100%;
   width: 100%;
   position: absolute;
