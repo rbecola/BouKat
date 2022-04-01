@@ -40,6 +40,13 @@
 .lala {
   grid-area: lala;
 } */
+
+.stripe_round {
+  position: relative;
+  margin-left: 15%;
+  margin-top: 1.5%;
+}
+
 .group {
   position: absolute;
   z-index: 2;
@@ -61,6 +68,7 @@
 }
 .time_out {
   background-color: #231F20;
+  background-image: linear-gradient(to top, #3E3E3E 35%, transparent 35%);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -95,6 +103,7 @@
 }
 .black_text {
   color: black;
+  padding-top: 0.3vw;
 }
 .lvl {
   grid-area: lvl;
