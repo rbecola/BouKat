@@ -88,19 +88,19 @@
     }
 
     .stripes { grid-area: stripes;
-    background-color: #231F20;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+      background-color: #231F20;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .triangle { grid-area: triangle;
-    background-color: #FF002E;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    z-index: 2;
-    }
+      background-color: #FF002E;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      z-index: 2;
+      }
   .try {
 
   }
