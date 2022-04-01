@@ -32,16 +32,16 @@ $(document).ready(function(){
       $(".keep").toggleClass("show");
       });
 
-  // var _Seconds = $('.time').text(),
-  //   int;
-  // int = setInterval(function() { // запускаем интервал
-  //   if (_Seconds > 0) {
-  //     _Seconds--; // вычитаем 1
-  //     $('.time').text(_Seconds); // выводим получившееся значение в блок
-  //   } else {
-  //     clearInterval(int); // очищаем интервал, чтобы он не продолжал работу при _Seconds = 0
-  //     $(".time_out").css("visibility","visible"); // показывается вы проиграли! перезапуск лвл
-  //
-  //   }
-  // }, 1000);
+  var _Seconds = $('.time').text(),
+    int;
+  int = setInterval(function() { // запускаем интервал
+    if (_Seconds > 0) {
+      _Seconds--; // вычитаем 1
+      $('.time').text(_Seconds); // выводим получившееся значение в блок
+    } else {
+      clearInterval(int); // очищаем интервал, чтобы он не продолжал работу при _Seconds = 0
+      $(".time_out").css("visibility","visible"); // показывается вы проиграли! перезапуск лвл
+
+    }
+  }, 1000);
 });
