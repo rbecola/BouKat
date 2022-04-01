@@ -57,7 +57,7 @@
     background-color: #231F20;
     background-image: url(images/rounds.svg);
     background-repeat: repeat-x;
-    background-size: cover;
+    background-size: contain;
     }
 
     .test { grid-area: test;
@@ -66,24 +66,43 @@
 
     .stripes { grid-area: stripes;
     background-color: #231F20;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     }
 
     .triangle { grid-area: triangle;
     background-color: #FF002E;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
     }
+  .try {
 
+  }
     .cubes { grid-area: cubes;
     background-color: #FFFFFF;
+    background-image: url(images/cubes.svg);
+    background-size: contain;
+    z-index: 2;
     }
 
     .grey { grid-area: grey;
     background-color: #928E8F;
+    display: flex;
+    flex-direction: row;
+    align-items: center
     }
-
+    .treyg {
+    margin-left: 6%;
+    z-index: 1;
+  }
     .stripes_1 { grid-area: stripes_1;
-    background-color: #231F20;
-    }
+    background-color: #FF002E;
+    background-image: url(images/stripe_red.svg);
 
+    }
     .rounds_half { grid-area: rounds_half;
     background-color: #231F20;
     }
