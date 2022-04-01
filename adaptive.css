@@ -18,7 +18,7 @@
   .circle { grid-area: circle; }
   .area { grid-area: area; }
   .white { grid-area: white; }
-  .ears { grid-area: ears; }
+  .ears { grid-area: ears; } 
   .animation { grid-area: animation; }
   .white_1 { grid-area: white_1; }
   .black { grid-area: black; }
